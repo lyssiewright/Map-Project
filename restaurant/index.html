@@ -1,0 +1,56 @@
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Your Next Destination</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@1,700&family=Lobster&family=Merriweather&family=Zen+Kaku+Gothic+Antique:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="main.css" />
+    <script defer type="text/javascript" src="./index.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1>Your Next Destination</h1>
+    </header>
+    <main>
+    <div class="search-container">
+        <form id="city-search" action="/action_page.php">
+            <input id="city-search-input" type="text" placeholder="Search.." name="search">
+            <button type="submit"><i class="fa fa-search"></i></button>
+        </form>
+        <div id="search-results"></div>
+    </div>
+    <div id="city-display">
+        <h1 id="city-name"></h1>
+        <img
+          id="map-image"
+          alt="map"
+          src="map.jpeg"
+          />
+          
+          <!-- <button type="button" id="new-york-btn" class="map-button">New York</button>
+          <button type="button" id="san-francisco-btn" class="map-button">San Francisco</button>
+          <button type="button" id="san-francisco-btn" class="map-button">Washington</button>
+          <button type="button" id="san-francisco-btn" class="map-button">Chicago</button>
+          <button type="button" id="san-francisco-btn" class="map-button">New Orleans</button>
+          <button type="button" id="san-francisco-btn" class="map-button">Las Vegas</button>
+          <button type="button" id="san-francisco-btn" class="map-button">Boston</button>
+          <button type="button" id="san-francisco-btn" class="map-button">Miami</button>
+          <button type="button" id="san-francisco-btn" class="map-button">Seattle</button>
+          <button type="button" id="san-francisco-btn" class="map-button">Philadelphia</button> -->
+
+    </div> 
+    <div id="city-info"></div>
+    <form id="review-form">
+      <label for="review">Your Review</label>
+      <textarea id="review"></textarea>
+      <label for="review-city">On City</label>
+      <textarea id="review-city"></textarea>
+      <button type="submit">Add review</button>
+    </form>
+    </main>
+  </body>
+</html>

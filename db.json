@@ -1,0 +1,39 @@
+{
+  "reviews": [
+    {
+      "city": "New_York_City",
+      "review": "Loved it here!!",
+      "id": 1
+    },
+    {
+      "city": "San_Francisco",
+      "review": "Awesome!!",
+      "id": 2
+    },
+    {
+      "city": "Murray2C_Kentucky",
+      "review": "Loved the Wal-Mart!!",
+      "id": 3
+    },
+    {
+      "city": "Murray2C_Kentucky",
+      "review": "Murray was the cutest small town!!\nI heard there was a super cool chick from there - I believe her name is Lyssie Wright.",
+      "id": 4
+    },
+    {
+      "city": "Houston",
+      "review": "The best city ever!",
+      "id": 5
+    },
+    {
+      "city": "Washington2C_D2eC2e",
+      "review": "I tried to talk to the President, but when I knocked on his front door I got tackled by these men in suits!!!",
+      "id": 6
+    },
+    {
+      "city": "New_York_City",
+      "review": "Best Food!",
+      "id": 7
+    }
+  ]
+}
